@@ -1,0 +1,9 @@
+runtime: nodejs16
+service: books
+
+env_variables:
+  HOST: 34.101.137.197
+  USER: notes 
+  PASSWORD: notes
+  DB: movie
+  SERVER_PORT: 8080
