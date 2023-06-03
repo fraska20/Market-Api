@@ -1,9 +1,9 @@
 runtime: nodejs16
-service: books
+service: market
 
 env_variables:
-  HOST: 34.101.137.197
-  USER: notes 
-  PASSWORD: notes
-  DB: movie
+  DB_HOST: 34.70.12.4
+  DB_USER: root 
+  DB_PASSWORD: 123
+  DB_DATABASE: market
   SERVER_PORT: 8080
